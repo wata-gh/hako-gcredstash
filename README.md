@@ -22,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+image: ryotarai/hello-sinatra
+env:
+  $providers:
+    - type: gcredstash
+      app: awesome_app
+  PORT: 3000
+  MESSAGE: '#{username}-san!'
+port: 3000
+scheduler:
+  type: echo
+```
 
 ## Development
 
@@ -32,7 +43,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hako-gcredstash.
+Bug reports and pull requests are welcome on GitHub at https://github.com/wata-gh/hako-gcredstash.
 
 
 ## License
