@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'hako/gcredstash/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'hako-gcredstash'
-  spec.version       = Hako::Gcredstash::VERSION
+  spec.version       = '0.1.0'
   spec.authors       = ['Shinya Watanabe']
   spec.email         = ['wata-gh@gmail.com']
 
