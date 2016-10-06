@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Provide variables from gcredstash to hako'
   spec.description   = 'Provide variables from gcredstash to hako'
-  spec.homepage      = 'github.com/wata-gh/hako-gcredstash'
+  spec.homepage      = 'https://github.com/wata-gh/hako-gcredstash'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
